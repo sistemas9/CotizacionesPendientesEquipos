@@ -76,7 +76,6 @@ namespace CotizacionesPendientesEquipos
         Mail correo = new Mail();
         correo.SendMail(template, ms2);
       }
-
       Console.WriteLine("Fin...");
     }
 
